@@ -1,11 +1,9 @@
 # Forest-Cover-Type-Analysis-Phase-0
 
 
-## Phase 0 
-
 # Introduction
-As part of my Machine Learning class, we chose a dataset from Kaggle competitions. This is the first of three phases of selecting, cleaning, and creating models.
-
+This is the first of three phases of my Machine Learning class.
+[(https://www.kaggle.com/c/forest-cover-type-prediction)]
 
 *Which data set have you chosen? What interested you about this problem?*
 
