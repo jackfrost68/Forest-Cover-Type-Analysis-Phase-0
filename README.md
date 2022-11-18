@@ -1,1 +1,56 @@
 # Forest-Cover-Type-Analysis-Phase-0
+
+
+## Phase 0 
+
+# Introduction
+As part of my Machine Learning class, we chose a dataset from Kaggle competitions. This is the first of three phases of selecting, cleaning, and creating models.
+
+
+*Which data set have you chosen? What interested you about this problem?*
+
+The dataset I’ve chosen is the Forever Cover Type Prediction dataset.The reasons to choose this dataset are:
+a. If successful, my model could be replicated to predict and track endangered plant species in the Amazon forest and other environmental initiatives .
+b. Analyzing the right forest cover type is a major requirement for the forest management department to ensure ecological balance of the particular area. The traditional methods such as manual collection of samples in dense and wilderness areas like Amazon Forest can be fatal. Using the prediction model , one can avoid unnecessary fatality and reduce expense on collecting data from satellites by applying the forecast from the analyzed sample section.
+
+
+
+*What columns in the data set are categorical and which are numerical?*
+On the train.csv dataset the
+a. Categorical columns:
+
+1. ID
+2. Hillshade_9am 3. Hillshade_Noon 4. Hillshade_3pm 5. Soil_Type
+6. Cover_Type
+7. Wilderness_Area
+
+b.Numerical columns:
+
+1. Elevation
+2. Aspect
+3. Slope
+4. Horizontal_Distance_Hydrology
+5. Vertical_Distance_Hydrology
+6. Horizontal_Distance_Roadways
+7. Horizontal_Distance_To_Fire_Points
+
+
+What is your target? What are the KPIs you plan on using to assess model performance in predicting this target?
+My target is to accurately predict the forest cover type using the other variables. 
+I’ll use the MAPE (Mean Absolute Performance Error) and RMSE (Root Mean Squared Error) to gauge how accurately my model predicted the forest cover type. 
+
+
+Ques 4: The data set labeled "test" on Kaggle is not useful in this project -- why?
+The test dataset doesn’t contain the target column which is required  in observations calculations.
+
+
+Ques 5 : What are the particular difficulties you see in this data set? What unique challenges might you encounter in analyzing it?
+Our dataset is very large, i.e. the soil type column has 40 variables making it harder to find the best model to use. Additionally, our dataset has 7 targets i.e. the different forest cover types therefore making predicting is a bit more tedious.
+Scientific terminologies such as azimuth, hillshade and hydrology can be difficult for novice data analysts or non-technical staff to understand.
+Lastly, the dataset is 7 years old and with the drastic climate changes over the last years, our model might not predict forest type cover accurately.
+
+# Exploratory Data Analysis
+
+*What’s the composition of users by platform?*
+
+![This is an image](https://github.com/jackfrost68/Wayfair-/blob/5a84bfae3125e924b60da87335ee43024b5c1b7d/Screenshot%202022-11-13%20at%207.49.41%20PM.png)
