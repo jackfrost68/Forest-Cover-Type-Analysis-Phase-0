@@ -3,26 +3,29 @@
 
 # Introduction
 This is the first of three phases of my Machine Learning class.
-[(https://www.kaggle.com/c/forest-cover-type-prediction)]
+
 
 *Which data set have you chosen? What interested you about this problem?*
 
-The dataset I’ve chosen is the Forever Cover Type Prediction dataset.The reasons to choose this dataset are:
-a. If successful, my model could be replicated to predict and track endangered plant species in the Amazon forest and other environmental initiatives .
-b. Analyzing the right forest cover type is a major requirement for the forest management department to ensure ecological balance of the particular area. The traditional methods such as manual collection of samples in dense and wilderness areas like Amazon Forest can be fatal. Using the prediction model , one can avoid unnecessary fatality and reduce expense on collecting data from satellites by applying the forecast from the analyzed sample section.
+The dataset I’ve chosen is the Forever Cover Type Prediction dataset.[(https://www.kaggle.com/c/forest-cover-type-prediction)]
+
+The reasons to choose this dataset are:
++ If successful, my model could be replicated to predict and track endangered plant species in the Amazon forest and other environmental initiatives .
++ Analyzing the right forest cover type is a major requirement for the forest management department to ensure ecological balance of the particular area. The traditional methods such as manual collection of samples in dense and wilderness areas like Amazon Forest can be fatal. Using the prediction model , one can avoid unnecessary fatality and reduce expense on collecting data from satellites by applying the forecast from the analyzed sample section.
 
 
 
 *What columns in the data set are categorical and which are numerical?*
 On the train.csv dataset the
-a. Categorical columns:
+
++ Categorical columns:
 
 1. ID
 2. Hillshade_9am 3. Hillshade_Noon 4. Hillshade_3pm 5. Soil_Type
 6. Cover_Type
 7. Wilderness_Area
 
-b.Numerical columns:
++ Numerical columns:
 
 1. Elevation
 2. Aspect
@@ -38,11 +41,11 @@ My target is to accurately predict the forest cover type using the other variabl
 I’ll use the MAPE (Mean Absolute Performance Error) and RMSE (Root Mean Squared Error) to gauge how accurately my model predicted the forest cover type. 
 
 
-Ques 4: The data set labeled "test" on Kaggle is not useful in this project -- why?
+*The data set labeled "test" on Kaggle is not useful in this project -- why?*
 The test dataset doesn’t contain the target column which is required  in observations calculations.
 
 
-Ques 5 : What are the particular difficulties you see in this data set? What unique challenges might you encounter in analyzing it?
+*What are the particular difficulties you see in this data set? What unique challenges might you encounter in analyzing it?*
 The dataset is very large, i.e. the soil type column has 40 variables making it harder to find the best model to use. Additionally, the dataset has 7 targets i.e. the different forest cover types therefore making predicting is a bit more tedious. 
 
 Scientific terminologies such as azimuth, hillshade and hydrology can be difficult for novice data analysts or non-technical staff to understand. 
