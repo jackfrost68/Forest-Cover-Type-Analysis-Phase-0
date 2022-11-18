@@ -5,7 +5,7 @@ Dataset: [(https://www.kaggle.com/c/forest-cover-type-prediction)]
 
 <ins>*Which data set have you chosen? What interested you about this problem?*</ins>
 
-The dataset I’ve chosen is the Forever Cover Type Prediction dataset. I chose it for the following reasons;
+I chose the above dataset for the following reasons;
 
 + If successful, my model could be replicated to predict and track endangered plant species in the Amazon forest and other environmental initiatives .
 + Analyzing the right forest cover type is a major requirement for the forest management department to ensure ecological balance of the particular area. The traditional methods such as manual collection of samples in dense and wilderness areas like Amazon Forest can be fatal. Using the prediction model , one can avoid unnecessary fatality and reduce expense on collecting data from satellites by applying the forecast from the analyzed sample section.
