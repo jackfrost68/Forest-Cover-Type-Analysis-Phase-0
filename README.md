@@ -45,12 +45,11 @@ The test dataset doesn’t contain the target column which is required  in obser
 
 
 Ques 5 : What are the particular difficulties you see in this data set? What unique challenges might you encounter in analyzing it?
-Our dataset is very large, i.e. the soil type column has 40 variables making it harder to find the best model to use. Additionally, our dataset has 7 targets i.e. the different forest cover types therefore making predicting is a bit more tedious.
-Scientific terminologies such as azimuth, hillshade and hydrology can be difficult for novice data analysts or non-technical staff to understand.
-Lastly, the dataset is 7 years old and with the drastic climate changes over the last years, our model might not predict forest type cover accurately.
+The dataset is very large, i.e. the soil type column has 40 variables making it harder to find the best model to use. Additionally, the dataset has 7 targets i.e. the different forest cover types therefore making predicting is a bit more tedious. 
 
-# Exploratory Data Analysis
+Scientific terminologies such as azimuth, hillshade and hydrology can be difficult for novice data analysts or non-technical staff to understand. 
 
-*What’s the composition of users by platform?*
+Lastly, the dataset is 7 years old and with the drastic climate changes over the last years, my model might not predict forest type cover accurately. 
+
 
 ![This is an image](https://github.com/jackfrost68/Wayfair-/blob/5a84bfae3125e924b60da87335ee43024b5c1b7d/Screenshot%202022-11-13%20at%207.49.41%20PM.png)
