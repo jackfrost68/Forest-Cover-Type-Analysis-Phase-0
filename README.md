@@ -31,15 +31,18 @@ On the train.csv dataset the
 
 
 <ins>*What is your target? What are the KPIs you plan on using to assess model performance in predicting this target?*</ins>
+
 My target is to accurately predict the forest cover type using the other variables. 
 I’ll use the MAPE (Mean Absolute Performance Error) and RMSE (Root Mean Squared Error) to gauge how accurately my model predicted the forest cover type. 
 
 
 <ins>*The data set labeled "test" on Kaggle is not useful in this project -- why?*</ins>
+
 The test dataset doesn’t contain the target column which is required  in observations calculations.
 
 
 <ins>*What are the particular difficulties you see in this data set? What unique challenges might you encounter in analyzing it?*</ins>
+
 1. The dataset is very large, i.e. the soil type column has 40 variables making it harder to find the best model to use. Additionally, the dataset has 7 targets i.e. the different forest cover types therefore making predicting is a bit more tedious. 
 2. Scientific terminologies such as azimuth, hillshade and hydrology can be difficult for novice data analysts or non-technical staff to understand.
 3. Lastly, the dataset is 7 years old and with the drastic climate changes over the last years, my model might not predict forest type cover accurately. 
