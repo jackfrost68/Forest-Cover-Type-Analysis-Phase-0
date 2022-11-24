@@ -12,6 +12,7 @@ I chose the above dataset for the following reasons;
 
 
 <ins>*What columns in the data set are categorical and which are numerical?*</ins>
+
 On the train.csv dataset the
 
 + Categorical columns:
